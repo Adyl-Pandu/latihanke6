@@ -6,8 +6,6 @@ class Mahasiswa {
   final String alamat;
 }
 
-
-
 class Mahasiswabaru {
   Mahasiswabaru(
     {required this.nama,
@@ -19,15 +17,14 @@ class Mahasiswabaru {
 
     final String nama;
     final String jurusan;
-    final String prodi;
+    final String prodi; 
     final String alamat;
     final int umur;
 
     String infoMahasiswa() {
       return 'Nama: $nama\nJurusan: $jurusan\nProdi: $prodi\nAlamat: $alamat\nUmur: $umur';
     }
-  }
-
+  } 
 
   void main() {
   final M = Mahasiswa('cikupa', 20, 131254236, 'Adyl Pandu ');
